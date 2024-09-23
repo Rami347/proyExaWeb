@@ -164,7 +164,8 @@ echo "la extension del archivo es: ".$extension;*/
 
         }*/
 // primer paso para el query
-$consulta="INSERT INTO usuario (ci, nombre, apellido, password, email, nro_celular, direccion, id_sesion) VALUES ('$ci','$nombre', '$apellido', '$passsword', '$email' ,'$nro_celular', '$direccion', '$id_sesion')";
+$consulta="INSERT INTO usuario (ci, nombre, apellido, password, nro_celular,  direccion, email,  id_sesion) VALUES
+ ('$ci','$nombre', '$apellido', '$passsword', '$nro_celular', '$direccion', '$email', '$id_sesion')";
 //segundo paso
 mysqli_query($conexion,$consulta);
 $id_sesion = $_POST['id_sesion'];

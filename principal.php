@@ -92,7 +92,6 @@
                      <div class="text-bg">
                         <h1> <span class="blu">BIENVENIDO<br></span></h1>
                         <figure><img src="images/banner_img.png" alt="#" /></figure>
-                        <a class="read_more" href="#">Shop Now</a>
                      </div>
                   </div>
                </div>
@@ -103,7 +102,6 @@
                      <div class="text-bg">
                         <h1> <span class="blu">BIENVENIDO <br></span>la suprema</h1>
                         <figure><img src="images/banner_img2.png" alt="#" /></figure>
-                        <a class="read_more" href="#"></a>
                      </div>
                   </div>
                </div>
@@ -114,7 +112,6 @@
                      <div class="text-bg">
                         <h1> <span class="blu">Bolivia <br></span>la suprema</h1>
                         <figure><img src="images/banner_img1.png" alt="#" /></figure>
-                        <a class="read_more" href="#"></a>
                      </div>
                   </div>
                </div>
@@ -195,13 +192,10 @@
                <p>Avena con Chia</p>
             </div>
          </div>
-         <div class="col-md-12">
-            <a class="read_more" href="#">Leer Mas</a>
-         </div>
       </div>
    </div>
 </div>
-
+<br>
 <!-- sección de contacto -->
    <!-- <div class="container-fluid">
       <div class="map_section">

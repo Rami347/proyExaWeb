@@ -26,7 +26,7 @@ include("../conexion/conexion.php");
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
 				<figure class="full-box">
-					<img src="./assets/avatars/AdminMaleAvatar.png" alt="UserIcon">
+					<img src="./assets/avatars/StudetMaleAvatar.png" alt="UserIcon">
 					<figcaption class="text-center text-titles"><?php
                 			include("../conexion/conexion.php");
                 			session_start();
