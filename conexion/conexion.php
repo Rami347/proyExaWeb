@@ -3,7 +3,11 @@ $usuario ="root";
 
 $contrasena ="";
 
+<<<<<<< HEAD
 $bd_datos="ram";
+=======
+$bd_datos="suprema";
+>>>>>>> main
 
 $servidor ="localhost";
 
