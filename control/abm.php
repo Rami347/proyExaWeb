@@ -67,13 +67,13 @@ $nombre=$_POST['nombre'];
 //echo "el ci es: ".$ci."y el nombre es: ".$nombre;
 $apellido=$_POST['apellido'];
 $password=$_POST['password'];
-$email=$_POST['email'];
 $nro_celular=$_POST['nro_celular'];
 $direccion=$_POST['direccion'];
+$email=$_POST['email'];
 $id_sesion=$_POST['id_sesion'];
 
 //primer paso
-$consulta="UPDATE usuario SET nombre = '$nombre', apellido = '$apellido', password ='$password', email = '$email', nro_celular='$nro_celular', direccion ='$direccion' WHERE usuario.ci = '$ci'";
+$consulta="UPDATE usuario SET nombre = '$nombre', apellido = '$apellido', password ='$password',  nro_celular='$nro_celular', direccion ='$direccion', email = '$email' WHERE usuario.ci = '$ci'";
 
 //segundo paso
 mysqli_query($conexion,$consulta);
@@ -95,16 +95,15 @@ if(isset($_POST['btn10'])){
 	{
 
 $id_producto=$_POST['id_producto'];
-$color=$_POST['color'];
+$sabor=$_POST['sabor'];
 //echo "el id_producto es: ".$id_producto."y el nombre es: ".$color;
 $stock=$_POST['stock'];
-$talla=$_POST['talla'];
 $descrip_producto=$_POST['descrip_producto'];
 $precio_unitario=$_POST['precio_unitario'];
-$id_marca=$_POST['id_marca'];
+$nom_producto=$_POST['nom_producto'];
 
 //primer paso
-$consulta="UPDATE producto SET color = '$color', stock = '$stock', talla ='$talla', descrip_producto = '$descrip_producto', precio_unitario = '$precio_unitario' WHERE producto.id_producto = '$id_producto'";
+$consulta="UPDATE producto SET sabor = '$sabor', stock = '$stock',descrip_producto = '$descrip_producto', precio_unitario = '$precio_unitario', nom_producto = '$nom_producto' WHERE producto.id_producto = '$id_producto'";
 
 //segundo paso
 mysqli_query($conexion,$consulta);

@@ -154,12 +154,11 @@ while($fila=mysqli_fetch_array($respuesta))
 							<thead>
 								<tr>
 									<th class="text-center">#</th>
-									<th class="text-center">COLOR</th>
+									<th class="text-center">SABOR</th>
 									<th class="text-center">STOCK</th>
-									<th class="text-center">TALLA</th>
 									<th class="text-center">DESCRIPCION</th>
 									<th class="text-center">PRECIO UNI.</th>
-									<th class="text-center">MARCA</th>
+									<th class="text-center">NOMBRE PRODUCTO</th>
 									<th class="text-center">MODIFICAR</th>
 									<th class="text-center">ELIMINAR</th>
 								</tr>
@@ -167,12 +166,11 @@ while($fila=mysqli_fetch_array($respuesta))
 							<tbody>
 								<tr>
 									<td><?php echo $fila['id_producto'];?></td>
-									<td><?php echo $fila['color'];?></td>
+									<td><?php echo $fila['sabor'];?></td>
 									<td><?php echo $fila['stock'];?></td>
-									<td><?php echo $fila['talla'];?></td>
 									<td><?php echo $fila['descrip_producto'];?></td>
 									<td><?php echo $fila['precio_unitario'];?></td>
-									<td><?php echo $fila['id_marca'];?></td>
+									<td><?php echo $fila['nom_producto'];?></td>
 									<?php //$ci=$fila['ci']; 
 									//echo "el ci buscado es: ".$ci;
 									?>

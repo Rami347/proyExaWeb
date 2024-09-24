@@ -42,8 +42,6 @@ while($fila=mysqli_fetch_array($respuesta))
 APELLIDO:
 <input type="text" name="apelldio" value="<?php echo $fila['apellido'];?>">
 
-
-
 	<br>
 PASSWORD:
 <input type="text" name="password" value="<?php echo $fila['password'];?>">

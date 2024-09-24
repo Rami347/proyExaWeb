@@ -18,7 +18,7 @@
         }
 
         .container {
-            background-color: #45a049;
+            background-color: rgb(45, 52, 100);
             padding: 10px 40px 20px 30px;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -79,7 +79,7 @@
         }
 
         .btn-primary:hover {
-            background-color: #45a049;
+            background-color: rgb(25, 45, 105);
         }
 
         .error {

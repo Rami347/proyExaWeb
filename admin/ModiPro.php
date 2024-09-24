@@ -35,19 +35,12 @@ while($fila=mysqli_fetch_array($respuesta))
 	ID PRODUCTO:
 	<input type="text" name="id_producto" readonly value="<?php echo $fila['id_producto']; ?>" >
 	<br>
-	COLOR:
-	<input type="text" name="color" value="<?php echo $fila['color'];?>">
+	SABOR:
+	<input type="text" name="color" value="<?php echo $fila['sabor'];?>">
 
 	<br>
 STOCK:
 <input type="text" name="stock" value="<?php echo $fila['stock'];?>">
-
-
-
-	<br>
-TALLA:
-<input type="text" name="talla" value="<?php echo $fila['talla'];?>">
-
 
 	<br>
 DESCRIPCION:
@@ -60,8 +53,8 @@ PRECIO UNITARIO:
 
 
 	<br>
-ID MARCA:
-<input type="text" name="id_marca" value="<?php echo $fila['id_marca'];?>">
+NOMBRE PRODUCTO:
+<input type="text" name="id_marca" value="<?php echo $fila['nom_producto'];?>">
 	<br>
 <input type="submit" name="btn10" value="MODIFICAR">
 </form>

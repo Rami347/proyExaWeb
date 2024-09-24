@@ -3,8 +3,8 @@
 include("../conexion/conexion.php");
 include("bloqueo.php"); 
 // Desactivar la visualización de errores
-ini_set('display_errors', 0);
-error_reporting(0)
+//ini_set('display_errors', 0);
+//error_reporting(0)
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -32,7 +32,7 @@ error_reporting(0)
 					<figcaption class="text-center text-titles">
 						<?php
                 			include("../conexion/conexion.php");
-                			session_start();
+                			//session_start();
                 			echo "<h3 class='display-4 fw-bolder'>".$_SESSION['admin']."</h3>"
                 		?>
 						</figcaption>
@@ -90,7 +90,7 @@ error_reporting(0)
 		<div class="container-fluid">
 			<ul class="breadcrumb breadcrumb-tabs">
 				<li>
-					<a href="fromUsu.php" class="btn btn-info">
+					<a href="RegUsu.php" class="btn btn-info">
 						<i class="zmdi zmdi-plus"></i> &nbsp; NUEVO USUARIO
 					</a>
 				</li>
