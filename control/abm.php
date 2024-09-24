@@ -202,12 +202,11 @@ if(isset($_POST['btn4'])){
 
 $id_producto=$_POST['id_producto'];
 // echo "el nuevo ci es: ".$ci;
-$color=$_POST['color'];
+$sabor=$_POST['sabor'];
 $stock=$_POST['stock'];
-$talla=$_POST['talla'];
 $descrip_producto=$_POST['descrip_producto'];
 $precio_unitario=$_POST['precio_unitario'];
-$id_marca=$_POST['id_marca'];
+$nom_producto=$_POST['nom_producto'];
 //$contrasena=$_POST['contrasena'];
 
 // codigo para guardar imagen
@@ -236,8 +235,8 @@ echo "la extension del archivo es: ".$extension;*/
 
         }*/
 // primer paso para el query
-$consulta="INSERT INTO producto (id_producto, color, stock, talla, descrip_producto, precio_unitario, id_marca) VALUES ('$id_producto','$color',
- '$stock', '$talla', '$descrip_producto' ,'$precio_unitario', '$id_marca')";
+$consulta="INSERT INTO producto (id_producto, sabor, stock, descrip_producto, precio_unitario, nom_producto) VALUES ('$id_producto','$sabor',
+ '$stock','$descrip_producto' ,'$precio_unitario', '$nom_producto')";
 //segundo paso
 mysqli_query($conexion,$consulta);
 
@@ -247,4 +246,5 @@ echo "<script>alert('producto registrado de manera correcta')</script>";
 
 }
 }
+
 ?>
