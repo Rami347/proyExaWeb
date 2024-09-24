@@ -49,7 +49,7 @@
                   <div class="full">
                      <div class="center-desk">
                         <div class="logo">
-                           <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                           <a href="principal.php"><img src="images/logo.png" alt="#" /></a>
                         </div>
                      </div>
                   </div>
@@ -62,20 +62,11 @@
                      </button>
                      <div class="collapse navbar-collapse" id="navbarsExample04">
                         <ul class="navbar-nav mr-auto">
-                           <li class="nav-item active">
-                              <a class="nav-link" href="index.html">Hogar</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="glasses.html">Nuestros productos</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="contact.html">Contáctenos</a>
-                           </li>
                            <li class="nav-item d_none login_btn">
-                              <a class="nav-link" href="#">Inicia</a>
+                              <a class="nav-link" href="login.php">Inicia</a>
                            </li>
                            <li class="nav-item d_none">
-                              <a class="nav-link" href="#">Registro</a>
+                              <a class="nav-link" href="admin/RegUsu.php">Registro</a>
                            </li>
                         </ul>
                      </div>
@@ -101,7 +92,6 @@
                      <div class="text-bg">
                         <h1> <span class="blu">BIENVENIDO<br></span></h1>
                         <figure><img src="images/banner_img.png" alt="#" /></figure>
-                        <a class="read_more" href="#">Shop Now</a>
                      </div>
                   </div>
                </div>
@@ -112,7 +102,6 @@
                      <div class="text-bg">
                         <h1> <span class="blu">BIENVENIDO <br></span>la suprema</h1>
                         <figure><img src="images/banner_img2.png" alt="#" /></figure>
-                        <a class="read_more" href="#"></a>
                      </div>
                   </div>
                </div>
@@ -123,7 +112,6 @@
                      <div class="text-bg">
                         <h1> <span class="blu">Bolivia <br></span>la suprema</h1>
                         <figure><img src="images/banner_img1.png" alt="#" /></figure>
-                        <a class="read_more" href="#"></a>
                      </div>
                   </div>
                </div>
@@ -204,13 +192,10 @@
                <p>Avena con Chia</p>
             </div>
          </div>
-         <div class="col-md-12">
-            <a class="read_more" href="#">Leer Mas</a>
-         </div>
       </div>
    </div>
 </div>
-
+<br>
 <!-- sección de contacto -->
    <!-- <div class="container-fluid">
       <div class="map_section">
