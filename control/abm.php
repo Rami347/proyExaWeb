@@ -103,7 +103,7 @@ $precio_unitario=$_POST['precio_unitario'];
 $nom_producto=$_POST['nom_producto'];
 
 //primer paso
-$consulta="UPDATE producto SET sabor = '$sabor', stock = '$stock',descrip_producto = '$descrip_producto', precio_unitario = '$precio_unitario', nom_producto = '$nom_producto' WHERE producto.id_producto = '$id_producto'";
+$consulta="UPDATE producto SET sabor = '$sabor', stock = '$stock', descrip_producto = '$descrip_producto', precio_unitario = '$precio_unitario', nom_producto = '$nom_producto' WHERE producto.id_producto = '$id_producto'";
 
 //segundo paso
 mysqli_query($conexion,$consulta);
@@ -113,7 +113,6 @@ echo "<script>alert('usuario modificado de manera correcta')</script>";
 
 	}
 }
-
 ?>
 
 <!-- REGSITRO USUARIO-->
