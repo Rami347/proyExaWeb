@@ -131,65 +131,41 @@
          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="glasses_box">
                <figure><img src="images/glass1.png" alt="#"/></figure>
-               <h3><span class="blu">$</span>30</h3>
-               <p>400 gr</p>
-               <p>Tornillo</p>
             </div>
          </div>
          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="glasses_box">
                <figure><img src="images/fideos3.jpg" alt="#"/></figure>
-               <h3><span class="blu">$</span>30</h3>
-               <p>400 gr</p>
-               <p>Codo Mediano</p>
             </div>
          </div>
          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="glasses_box">
                <figure><img src="images/glass3.png" alt="#"/></figure>
-               <h3><span class="blu">$</span>20</h3>
-               <p>400 gr</p>
-               <p>Harina</p>
             </div>
          </div>
          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="glasses_box">
                <figure><img src="images/glass4.png" alt="#"/></figure>
-               <h3><span class="blu">$</span>25</h3>
-               <p>1 Kg</p>
-               <p>Harina</p>
             </div>
          </div>
          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="glasses_box">
                <figure><img src="images/glass5.png" alt="#"/></figure>
-               <h3><span class="blu">$</span>30</h3>
-               <p>2 Kg</p>
-               <p>Harina</p>
             </div>
          </div>
          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="glasses_box">
                <figure><img src="images/glass6.png" alt="#"/></figure>
-               <h3><span class="blu">$</span>10</h3>
-               <p>40 gr</p>
-               <p>Galletas Wafs</p>
             </div>
          </div>
          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="glasses_box">
                <figure><img src="images/glass7.png" alt="#"/></figure>
-               <h3><span class="blu">$</span>18</h3>
-               <p>30 gr</p>
-               <p>Queque Marmolado</p>
             </div>
          </div>
          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
             <div class="glasses_box">
                <figure><img src="images/glass8.png" alt="#"/></figure>
-               <h3><span class="blu">$</span>20</h3>
-               <p>400 gr</p>
-               <p>Avena con Chia</p>
             </div>
          </div>
       </div>
@@ -223,7 +199,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-12">
-                     <p>© 2024 Todos los derechos reservados. Diseño por<a href="https://html.design/"> Ram Pat Quen</a></p>
+                     <p>© 2024 Todos los derechos reservados. Diseño por<a href="https://html.design/"> Ramiro Patzi Q.</a></p>
                   </div>
                </div>
             </div>
