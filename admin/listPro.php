@@ -1,9 +1,8 @@
 <?php
 
 include("../conexion/conexion.php");
-session_start();
 
-//include("bloqueo.php");
+include("bloqueo.php");
 ?>
 <html lang="es">
 <head>
@@ -69,12 +68,11 @@ while ($fila = mysqli_fetch_array($respuesta)) {
                             <thead class="thead-light">
                                 <tr>
                                     <th scope="col" class="text-center">#</th>
-                                    <th scope="col" class="text-center">COLOR</th>
+                                    <th scope="col" class="text-center">SABOR</th>
                                     <th scope="col" class="text-center">STOCK</th>
-                                    <th scope="col" class="text-center">TALLA</th>
                                     <th scope="col" class="text-center">DESCRIPCION</th>
                                     <th scope="col" class="text-center">PRECIO UNI.</th>
-                                    <th scope="col" class="text-center">MARCA</th>
+                                    <th scope="col" class="text-center">NOMBRE</th>
                                     <!-- <th scope="col" class="text-center">MODIFICAR</th>
                                     <th scope="col" class="text-center">ELIMINAR</th> -->
                                 </tr>
@@ -82,12 +80,11 @@ while ($fila = mysqli_fetch_array($respuesta)) {
                             <tbody>
                                 <tr>
                                     <td scope="row"><?php echo $fila['id_producto']; ?></td>
-                                    <td scope="row"><?php echo $fila['color']; ?></td>
+                                    <td scope="row"><?php echo $fila['sabor']; ?></td>
                                     <td scope="row"><?php echo $fila['stock']; ?></td>
-                                    <td scope="row"><?php echo $fila['talla']; ?></td>
                                     <td scope="row"><?php echo $fila['descrip_producto']; ?></td>
                                     <td scope="row"><?php echo $fila['precio_unitario']; ?></td>
-                                    <td scope="row"><?php echo $fila['id_marca']; ?></td>
+                                    <td scope="row"><?php echo $fila['nom_producto']; ?></td>
                                     <?php //$ci=$fila['ci']; 
                                     //echo "el ci buscado es: ".$ci;
                                     ?>

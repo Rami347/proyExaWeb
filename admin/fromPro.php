@@ -174,16 +174,12 @@
                     <input type="number" name="id_producto" id="id_producto" class="form-control" required>
                 </div>
                 <div class="form-group">
-                    <label class="form-label" for="color">Color:</label>
-                    <input type="text" name="color" id="color" class="form-control" required>
+                    <label class="form-label" for="color">Sabor:</label>
+                    <input type="text" name="sabor" id="color" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label class="form-label" for="stock">Stock:</label>
                     <input type="number" name="stock" id="stock" class="form-control" required>
-                </div>
-                <div class="form-group">
-                    <label class="form-label" for="talla">Talla:</label>
-                    <input type="number" name="talla" id="talla" class="form-control" required>
                 </div>
                 <div class="form-group full-width">
                     <label class="form-label" for="descrip_producto">Descripción de Producto:</label>
@@ -193,15 +189,11 @@
                     <label class="form-label" for="precio_unitario">Precio Unitario:</label>
                     <input type="number" name="precio_unitario" id="precio_unitario" class="form-control" required>
                 </div>
-                <div class="form-group full-width">
-                    <label class="form-label" for="id_marca">Marca:</label>
-                    <select name="id_marca" id="id_marca" class="form-control">
-                        <option value="1">Nike</option>
-                        <option value="2">Adidas</option>
-                        <option value="3">Puma</option>
-                        <option value="4">Reebok</option>
-                    </select>
+                <div class="form-group">
+                    <label class="form-label" for="precio_unitario">Nombre Producto:</label>
+                    <input type="text" name="nom_producto" id="precio_unitario" class="form-control" required>
                 </div>
+                
             </div>
             <div class="form-group">
                 <input type="submit" name="btn4" value="REGISTRAR" class="btn-primary">

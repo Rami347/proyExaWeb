@@ -12,6 +12,29 @@
   <link href="images/assets/css/style.css" rel="stylesheet">
 
   <title>Login</title>
+
+  <script>
+    function validateForm() {
+      const usuario = document.forms["loginForm"]["nombre"].value;
+      const password = document.forms["loginForm"]["contrasena"].value;
+      let valid = true;
+
+      if (usuario == "") {
+        alert("El campo de usuario no puede estar vacío.");
+        valid = false;
+      }
+
+      if (password == "") {
+        alert("El campo de contraseña no puede estar vacío.");
+        valid = false;
+      } else if (password.length < 1) {
+        alert("La contraseña debe tener al menos 6 caracteres.");
+        valid = false;
+      }
+
+      return valid;
+    }
+  </script>
 </head>
 
 <body>
@@ -24,7 +47,7 @@
               <div class="logo">
                 <img src="images/assets/images/user.png">
               </div>
-              <form action="control/control.php" method="post">
+              <form name="loginForm" action="control/control.php" method="post" onsubmit="return validateForm()">
                 <div class="d-flex align-items-center mb-3 pb-1">
                   <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
                   <span class="h1 fw-bold mb-0">Inicia Sesion</span>
@@ -43,10 +66,8 @@
                 <div class="pt-1 mb-4">
                   <button class="btn btn-dark btn-lg btn-block" type="submit" value="ingresar">Login</button>
                 </div>
-                <!-- <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="#!"
-                                            style="color: #393f81;">Register here</a></p> -->
                 <br>
-                <a href="admin/fromUsu.php" class="">REGISTRARSE</a>
+                <a href="admin/RegUsu.php" class="">REGISTRARSE</a>
               </form>
             </div>
           </div>

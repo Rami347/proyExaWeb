@@ -1,3 +1,12 @@
+<?php
+
+include ("conexion/conexion.php");
+include("bloqueo.php"); 
+// Desactivar la visualización de errores
+ini_set('display_errors', 0);
+error_reporting(0);
+//include("destroy.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -56,7 +65,14 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
-                        <h2>hola mundo </h2>
+                        <?php
+                			session_start(); // Asegúrate de tener esto al inicio
+							   if (isset($_SESSION['cli'])) {
+							   	echo "<h1 class='display-4 fw-bolder'>".$_SESSION['cli']."</h1>";
+							   } else {
+							   	echo "<h1 class='display-4 fw-bolder'>No hay cliente registrado</h1>";
+							   }
+                		?>
                      </nav>
                   </div>
                </div>

@@ -1,12 +1,10 @@
 <?php
-
 include("conexion/conexion.php");
-
-
-//include("bloqueo.php");
+include("bloqueo.php"); 
+// Desactivar la visualización de errores
+ini_set('display_errors', 0);
+error_reporting(0)
 ?>
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -32,9 +30,9 @@ include("conexion/conexion.php");
 						<?php
                 			session_start(); // Asegúrate de tener esto al inicio
 							if (isset($_SESSION['admin'])) {
-								echo "<h1 class='display-4 fw-bolder'>".$_SESSION['admin']."</h1>";
+								echo "<h2 class='display-4 fw-bolder'>".$_SESSION['admin']."</h2>";
 							} else {
-								echo "<h1 class='display-4 fw-bolder'>No hay cliente registrado</h1>";
+								echo "<h4 class='display-4 fw-bolder'>No hay cliente registrado</h4>";
 							}
                 		?>
 				</figcaption>
